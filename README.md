@@ -1,7 +1,7 @@
 # PxCharts - 下一代智能多维表格编辑器 🌐📊
 
-[![Online Demo](https://img.shields.io/badge/Live_Demo-PxCharts.com-blue?style=for-the-badge&logo=google-chrome)](https://pxcharts.com)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/pxcharts?style=for-the-badge)](https://github.com/yourusername/pxcharts)
+[![Online Demo](https://img.shields.io/badge/Live_Demo-PxCharts.com-blue?style=for-the-badge&logo=google-chrome)](http://pxcharts.com)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/pxcharts?style=for-the-badge)](https://github.com/MrXujiang/pxcharts)
 
 **用数据重塑工作流** | **零代码搭建业务数据表** | **多视图无界限**
 

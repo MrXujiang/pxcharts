@@ -1,5 +1,6 @@
 <div align="center">
   <h1>📊 pxcharts 多维表格开源版</h1>
+  <img src="./new.png" alt="pxcharts多维表格" />
   <p>一个功能强大、界面精美的开源多维表格任务管理系统</p>
   
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)

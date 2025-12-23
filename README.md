@@ -85,6 +85,12 @@ pnpm start
 - **表单**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/) - 表单验证
 - **类型**: [TypeScript](https://www.typescriptlang.org/) - 类型安全
 
+## 📖 文档
+
+- [技术架构文档](./docs/ARCHITECTURE.md) - 详细的技术实现和架构设计
+- [English Documentation](./docs/ARCHITECTURE_EN.md) - Technical architecture documentation in English
+- [English README](./README_EN.md) - Project introduction in English
+
 ## 📚 核心功能
 
 ### 1. 多维表格管理

@@ -13,16 +13,16 @@
 
 ## ✨ Features
 
-- 🎯 **Multiple Views** - Table view, Kanban view, Assignment view for different scenarios
-- 🎨 **Beautiful UI Design** - Based on shadcn/ui + Tailwind CSS, clean and modern interface
-- 🔄 **Drag & Drop** - Support task drag & drop sorting, column reordering, flexible customization
-- 📊 **Data Statistics** - Built-in task statistics dashboard with data visualization
-- 🔍 **Advanced Filtering** - Multi-condition filtering, sorting, grouping for quick data location
-- 💾 **Import/Export** - Support JSON format data import and export
-- 🎭 **Custom Fields** - Add custom fields to flexibly extend data structure
-- 📱 **Responsive Design** - Perfect adaptation for desktop and mobile
-- 🌈 **Theme Customization** - Support light/dark theme switching
-- ⚡ **Performance Optimized** - Based on Next.js 15 + React 19, excellent performance
+-   🎯 **Multiple Views** - Table view, Kanban view, Assignment view for different scenarios
+-   🎨 **Beautiful UI Design** - Based on shadcn/ui + Tailwind CSS, clean and modern interface
+-   🔄 **Drag & Drop** - Support task drag & drop sorting, column reordering, flexible customization
+-   📊 **Data Statistics** - Built-in task statistics dashboard with data visualization
+-   🔍 **Advanced Filtering** - Multi-condition filtering, sorting, grouping for quick data location
+-   💾 **Import/Export** - Support JSON format data import and export
+-   🎭 **Custom Fields** - Add custom fields to flexibly extend data structure
+-   📱 **Responsive Design** - Perfect adaptation for desktop and mobile
+-   🌈 **Theme Customization** - Support light/dark theme switching
+-   ⚡ **Performance Optimized** - Based on Next.js 15 + React 19, excellent performance
 
 ## 🎬 Live Demo
 
@@ -31,20 +31,23 @@
 ## 📸 Screenshots
 
 ### Table View
+
 Powerful table management with drag & drop sorting, inline editing, custom fields, and more
 
 ### Kanban View
+
 Intuitive kanban display with task status drag & drop switching
 
 ### Statistics Dashboard
+
 Data visualization for clear task progress overview
 
 ## 🚀 Quick Start
 
 ### Requirements
 
-- Node.js 18.17 or higher
-- pnpm 8.0 or higher (recommended)
+-   Node.js 18.17 or higher
+-   pnpm 8.0 or higher (recommended)
 
 ### Installation
 
@@ -76,51 +79,55 @@ pnpm start
 
 ## 📦 Tech Stack
 
-- **Framework**: [Next.js 15](https://nextjs.org/) - React full-stack framework
-- **UI Components**: [shadcn/ui](https://ui.shadcn.com/) - High-quality React component library
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) - Atomic CSS framework
-- **State Management**: [Zustand](https://github.com/pmndrs/zustand) - Lightweight state management
-- **Drag & Drop**: [@dnd-kit](https://dndkit.com/) - Modern drag & drop library
-- **Charts**: [Recharts](https://recharts.org/) - React charting library
-- **Forms**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/) - Form validation
-- **Type Safety**: [TypeScript](https://www.typescriptlang.org/) - Type-safe development
+-   **Framework**: [Next.js 15](https://nextjs.org/) - React full-stack framework
+-   **UI Components**: [shadcn/ui](https://ui.shadcn.com/) - High-quality React component library
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/) - Atomic CSS framework
+-   **State Management**: [Zustand](https://github.com/pmndrs/zustand) - Lightweight state management
+-   **Drag & Drop**: [@dnd-kit](https://dndkit.com/) - Modern drag & drop library
+-   **Charts**: [Recharts](https://recharts.org/) - React charting library
+-   **Forms**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/) - Form validation
+-   **Type Safety**: [TypeScript](https://www.typescriptlang.org/) - Type-safe development
 
 ## 📖 Documentation
 
-- [Technical Architecture (Chinese)](./docs/ARCHITECTURE.md) - Detailed technical implementation and architecture design
-- [Technical Architecture (English)](./docs/ARCHITECTURE_EN.md) - Technical architecture documentation in English
-- [中文文档](./README.md) - Project introduction in Chinese
+-   [Technical Architecture (Chinese)](./docs/ARCHITECTURE.md) - Detailed technical implementation and architecture design
+-   [Technical Architecture (English)](./docs/ARCHITECTURE_EN.md) - Technical architecture documentation in English
+-   [中文文档](./README.md) - Project introduction in Chinese
 
 ## 📚 Core Features
 
 ### 1. Multi-dimensional Table Management
-- ✅ Task CRUD operations
-- ✅ Drag & drop sorting
-- ✅ Inline editing
-- ✅ Batch operations
-- ✅ Custom fields
-- ✅ Column width adjustment
-- ✅ Column order adjustment
+
+-   ✅ Task CRUD operations
+-   ✅ Drag & drop sorting
+-   ✅ Inline editing
+-   ✅ Batch operations
+-   ✅ Custom fields
+-   ✅ Column width adjustment
+-   ✅ Column order adjustment
 
 ### 2. View System
-- ✅ Table view
-- ✅ Kanban view
-- ✅ Assignment view
-- ✅ Statistics dashboard
+
+-   ✅ Table view
+-   ✅ Kanban view
+-   ✅ Assignment view
+-   ✅ Statistics dashboard
 
 ### 3. Data Operations
-- ✅ Advanced filtering
-- ✅ Multi-level sorting
-- ✅ Grouped display
-- ✅ Data import
-- ✅ Data export
+
+-   ✅ Advanced filtering
+-   ✅ Multi-level sorting
+-   ✅ Grouped display
+-   ✅ Data import
+-   ✅ Data export
 
 ### 4. User Experience
-- ✅ Search functionality
-- ✅ Responsive layout
-- ✅ Theme switching
-- ✅ Quick actions
-- ✅ Feedback notifications
+
+-   ✅ Search functionality
+-   ✅ Responsive layout
+-   ✅ Theme switching
+-   ✅ Quick actions
+-   ✅ Feedback notifications
 
 ## 🗂️ Project Structure
 
@@ -164,8 +171,8 @@ This project is licensed under the [GPL-3.0 license](LICENSE)
 
 **Xu Xiaoxi (MrXujiang)**
 
-- GitHub: [@MrXujiang](https://github.com/MrXujiang)
-- Website: [http://pxcharts.com](http://pxcharts.com)
+-   GitHub: [@MrXujiang](https://github.com/MrXujiang)
+-   Website: [http://pxcharts.com](http://pxcharts.com)
 
 ## 🌟 Star History
 
@@ -173,15 +180,17 @@ If this project helps you, please give us a ⭐️ Star!
 
 ## 📮 Contact Us
 
-- Submit Issue: [GitHub Issues](https://github.com/MrXujiang/pxcharts/issues)
-- WeChat: cxzk_168
+-   Submit Issue: [GitHub Issues](https://github.com/MrXujiang/pxcharts/issues)
+-   WeChat: cxzk_168
 
 ## 🔗 Related Projects
 
-- [pxcharts Ultra Edition](http://ultra.mute.turntip.cn) - Enhanced commercial version
-- [pxcharts Cloud Edition](https://pxcharts.turntip.cn) - Cloud-enhanced version
-- [H5-Dooring](https://github.com/MrXujiang/h5-Dooring) - Make H5 creation as simple as building blocks
-- [JitWord Collaborative AI Document](https://jitword.com) - AI-powered collaborative document tool
+-   [pxcharts Ultra Edition](http://ultra.mute.turntip.cn) - Enhanced commercial version
+-   [pxcharts Cloud Edition](https://pxcharts.turntip.cn) - Cloud-enhanced version
+-   [H5-Dooring](https://github.com/MrXujiang/h5-Dooring) - Make H5 creation as simple as building blocks
+-   [JitWord Collaborative AI Document](https://jitword.com) - AI-powered collaborative document tool
+-   [Intelligent Cloud Documents](https://mindlink.turntip.cn/) - MinLlink Doc
+-   [Smart office workstation](https://ai.flowmix.cn/) - FlowmixAI
 
 ## 💝 Sponsorship
 
@@ -192,3 +201,4 @@ If this project helps you, you can buy the author a coffee ☕️
 <div align="center">
   Made with ❤️ by <a href="https://github.com/MrXujiang">Xu Xiaoxi</a>
 </div>
+

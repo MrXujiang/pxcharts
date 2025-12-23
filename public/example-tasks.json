@@ -1,0 +1,82 @@
+[
+  {
+    "id": "example-task-1",
+    "description": "完成产品需求文档",
+    "summary": "编写详细的产品需求文档，包括功能描述、用户故事和验收标准。需要与产品经理和设计师协作确认细节。",
+    "assignee": {
+      "id": "zhoubeihe",
+      "name": "周北北"
+    },
+    "status": "进行中",
+    "startDate": "2023/05/15",
+    "expectedEndDate": "2023/05/20",
+    "actualEndDate": null,
+    "isDelayed": false,
+    "completed": false,
+    "priority": "重要紧急"
+  },
+  {
+    "id": "example-task-2",
+    "description": "设计用户界面原型",
+    "summary": "基于需求文档设计用户界面原型，包括主要页面流程和交互细节。需要考虑移动端和桌面端的适配。",
+    "assignee": {
+      "id": "huangpaopu",
+      "name": "黄泡泡"
+    },
+    "status": "待开始",
+    "startDate": "2023/05/18",
+    "expectedEndDate": "2023/05/25",
+    "actualEndDate": null,
+    "isDelayed": false,
+    "completed": false,
+    "priority": "重要紧急"
+  },
+  {
+    "id": "example-task-3",
+    "description": "实现用户认证功能",
+    "summary": "开发用户登录、注册和密码重置功能，包括前端表单验证和后端API实现。需要集成第三方认证服务。",
+    "assignee": {
+      "id": "zhoubeihe",
+      "name": "周北北"
+    },
+    "status": "待开始",
+    "startDate": "2023/05/22",
+    "expectedEndDate": "2023/05/30",
+    "actualEndDate": null,
+    "isDelayed": false,
+    "completed": false,
+    "priority": "紧急不重要"
+  },
+  {
+    "id": "example-task-4",
+    "description": "编写单元测试",
+    "summary": "为核心功能模块编写单元测试，确保代码质量和功能稳定性。测试覆盖率需要达到80%以上。",
+    "assignee": {
+      "id": "huangpaopu",
+      "name": "黄泡泡"
+    },
+    "status": "待开始",
+    "startDate": "2023/05/25",
+    "expectedEndDate": "2023/06/02",
+    "actualEndDate": null,
+    "isDelayed": false,
+    "completed": false,
+    "priority": "重要不紧急"
+  },
+  {
+    "id": "example-task-5",
+    "description": "部署测试环境",
+    "summary": "配置和部署测试服务器环境，包括数据库、缓存和消息队列等基础设施。需要编写自动化部署脚本。",
+    "assignee": {
+      "id": "zhoubeihe",
+      "name": "周北北"
+    },
+    "status": "待开始",
+    "startDate": "2023/05/28",
+    "expectedEndDate": "2023/06/01",
+    "actualEndDate": null,
+    "isDelayed": false,
+    "completed": false,
+    "priority": "重要不紧急"
+  }
+]

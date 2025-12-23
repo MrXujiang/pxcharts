@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* 更新为蓝色主题 */
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    /* 更新为蓝色主题 */
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.5% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* 添加自定义样式 */
+/* 标签基础样式和悬停效果 */
+.badge {
+  @apply transition-all duration-200;
+}
+
+.badge:hover {
+  @apply shadow-md transform -translate-y-0.5;
+}
+
+/* 优先级标签样式 */
+.badge-priority-urgent {
+  @apply bg-red-100 text-red-800 border border-red-300;
+}
+.badge-priority-urgent:hover {
+  @apply bg-red-200 text-red-900 border-red-400 !important;
+}
+
+.badge-priority-important {
+  @apply bg-orange-100 text-orange-800 border border-orange-300;
+}
+.badge-priority-important:hover {
+  @apply bg-orange-200 text-orange-900 border-orange-400 !important;
+}
+
+.badge-priority-normal {
+  @apply bg-yellow-100 text-yellow-800 border border-yellow-300;
+}
+.badge-priority-normal:hover {
+  @apply bg-yellow-200 text-yellow-900 border-yellow-400 !important;
+}
+
+/* 状态标签样式 */
+.badge-status-pending {
+  @apply bg-red-100 text-red-800 border border-red-300;
+}
+.badge-status-pending:hover {
+  @apply bg-red-200 text-red-900 border-red-400 !important;
+}
+
+.badge-status-in-progress {
+  @apply bg-yellow-100 text-yellow-800 border border-yellow-300;
+}
+.badge-status-in-progress:hover {
+  @apply bg-yellow-200 text-yellow-900 border-yellow-400 !important;
+}
+
+.badge-status-completed {
+  @apply bg-green-100 text-green-800 border border-green-300;
+}
+.badge-status-completed:hover {
+  @apply bg-green-200 text-green-900 border-green-400 !important;
+}
+
+.badge-status-stalled {
+  @apply bg-gray-100 text-gray-800 border border-gray-300;
+}
+.badge-status-stalled:hover {
+  @apply bg-gray-200 text-gray-900 border-gray-400 !important;
+}
+
+/* 拖拽相关样式 */
+.column-resizing {
+  cursor: col-resize !important;
+  user-select: none !important;
+}
+
+.column-resizing * {
+  cursor: col-resize !important;
+  user-select: none !important;
+}
+
+.resize-line {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #3b82f6;
+  z-index: 9999;
+  pointer-events: none;
+  box-shadow: 0 0 4px rgba(59, 130, 246, 0.5);
+  height: 100vh;
+  will-change: left;
+}
+
+/* 表格样式 */
+.task-table-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.task-table-content {
+  width: 100%;
+  overflow: auto;
+}
